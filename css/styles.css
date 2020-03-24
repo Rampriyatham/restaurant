@@ -246,6 +246,12 @@ h3.menu-item-title{
         border: 2px solid #3f0c1f;
 
       }
+      #menu-tile{
+          background-size: 140%;
+      }
+      #specials-tile{
+          background-size: 120%;
+      }
       /* End Home Page */
     }
 @media (min-width: 768px) and (max-width: 991px){
@@ -335,9 +341,12 @@ h3.menu-item-title{
 }
 
 @media (max-width: 479px){
-    #menu-tile, #specials-tile{
-        width: 280px;
-        margin: 0 auto 15px;
+    
+    #menu-tile{
+        background-size: 140%;
+    }
+    #specials-tile{
+        background-size: 120%;
     }
     .col-xxs-12{
         position: relative;
